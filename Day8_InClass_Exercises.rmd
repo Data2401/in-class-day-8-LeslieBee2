@@ -1,6 +1,6 @@
 ---
 title: "Lists - In Class Exercises"
-author: "Dr. Shoemaker"
+author: "Leslie Hernandez"
 date: "DATA 2401"
 output:nhtml_document
 
@@ -10,25 +10,30 @@ output:nhtml_document
 
 Make a list that contains the information on a single playing card. Suit, face, and value. 
 
-```{r}
+```{r Lists}
 
+card <- list(
+  suit = "hearts",
+  face = "Queen" ,
+  value = 11
 
+)
 ```
 
 
-Make a second list where each element contains all the options for suit, face, and value, respectively. 
-
 ```{r}
 
 
+
+
+
+
+
 ```
-
-
 If `Newlist <- list(a=1:10, b="Good morning", c="Hi")`, write an R statement that will add 1 to each element of the first vector in Newlist.
 
 ```{r}
 Newlist <- list(a=1:10, b="Good morning", c="Hi")
-
 
 ```
 
